@@ -152,5 +152,15 @@ section {
 * {
   box-sizing: border-box;
 }
+
+header {
+  position: sticky;
+  top: 0;                 
+  background-color: white;
+  opacity: 1;            
+  padding: 15px 0;        
+  z-index: 1000;          
+  border-bottom: 1px dotted #bbbbbb;
+}
 /* Peer Review Comment:
 Ahnaf help me cto put a commewnt in this file */
